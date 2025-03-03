@@ -17,6 +17,7 @@
 		"@playwright/test": "^1.28.1",
 		"@prisma/adapter-d1": "^5.20.0",
 		"@prisma/client": "^5.20.0",
+		"@rollup/rollup-darwin-x64": "^4.34.9",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/adapter-cloudflare-workers": "^2.5.4",
 		"@sveltejs/kit": "^2.0.0",
