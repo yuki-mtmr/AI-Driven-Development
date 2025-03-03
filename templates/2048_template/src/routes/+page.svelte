@@ -352,9 +352,9 @@
           </div>
         </div>
       {:else}
-        <div class="message game-over">
-          <h2>Game Over!</h2>
-          <p>Score: {score}</p>
+      <div class="message game-over">
+        <h2>Game Over!</h2>
+        <p>Score: {score}</p>
           <div class="scoreboard">
             <h3>Top Scores</h3>
             <div class="scores-list">
@@ -367,8 +367,8 @@
               {/each}
             </div>
           </div>
-          <button on:click={initGame}>Try Again</button>
-        </div>
+        <button on:click={initGame}>Try Again</button>
+      </div>
       {/if}
     </div>
   {/if}

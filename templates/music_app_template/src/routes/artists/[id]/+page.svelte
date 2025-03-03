@@ -7,7 +7,7 @@
   $: ({ artist, songs } = data);
 </script>
 
-<div class="container mx-auto px-4 py-8">
+<div class="container mx-auto px-4 py-8 pb-24">
   {#if artist}
     <!-- アーティスト情報 -->
     <div class="bg-gray-800 rounded-lg p-8 mb-8">
